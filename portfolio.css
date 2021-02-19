@@ -24,6 +24,16 @@
     height: 67px;
 }
 
+.header img {
+    top: 14px;
+    left: 563px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #707070;
+    opacity: 1;
+    border-radius: 50%;
+}
+
 a {
     /* muda a cor do menu  para branca */
     color: white;
@@ -61,18 +71,31 @@ a {
     top: 0.5px;
     left: 1px;
     width: 1919px;
-    height: 377x;
+    height: 377px;
     border: 1px solid #707070;
+    opacity: 1;
+    object-fit: cover;
+    object-position: center;
 }
 
 
 /* imagem RREDONDADA */
 
-main img {
+.container1 .principal img {
     top: 285px;
     left: 593px;
     width: 183px;
     height: 184px;
     border: 1px solid #707070;
     opacity: 1;
+    border-radius: 50%;
 }
+
+.container1 .principal h2 {
+    top: 380px;
+    left: 848px;
+    width: 422px;
+    height: 73px;
+}
+
+.container1 .principal p {}
