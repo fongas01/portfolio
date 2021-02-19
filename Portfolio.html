@@ -4,36 +4,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
     <title>Portfólio</title>
 </head>
 
 <body>
     <header class="header">
         <!--Background = PRETO-->
-        <img src="./img/aluno.jp" alt="foto do aluno">
+        <img src="./img/aluno.jpg" alt="foto do aluno">
         <nav>
-            <ul>
+            <ul class="menu">
                 <li><a href="#apresentação">Apresentação</a></li>
                 <li><a href="#formação">Formação</a></li>
                 <li><a href="#experiência">Experiência</a></li>
-                <li><a href="#fala comigo!">Fala comigo!</a></li>
+                <li><a href="#falacomigo!">Fala comigo!</a></li>
             </ul>
         </nav>
     </header>
+
     <!--background = cinza ou afro-->
-    <main id="main">
-        <!--background = branco-->
-        <img src="./img/foto.jpg" alt="foto do perfil">
+
+
+    <div class="fundo-afric">
+        <img src="./img/arte_africana.jpg">
+    </div>
+
+    <div class="container-principal">
+        <img src="./img/foto-codando.jpg" alt="foto do perfil">
         <h2>Fernando Fontoura G M</h2>
         <h3>Olá!</h3>
-        <p>Nesta
-            <strong id="#apresentação">apresentação</strong> enalteço a grande oportunidade cedida pela Toti.</p>
+        <p>Nesta breve resenha, enalteço a grande oportunidade cedida pela Toti.</p>
         <p>Pois, nela hoje estou tendo a chance de aprender sobre dev front-end.</p>
         <p>Uma migração profissional buscando oferecer os melhores serviços,</p>
         <p>no qte tange o desenvolvimento de páginas web e a criação de aplicações.</p>
         <img src="./img/github.png" alt="logo do github">
         <img src="./img/stackoverflow.png" alt="logo do stackoverflow">
         <img src="./img/linkedin.png" alt="logo do linkedin">
+    </div>
     </main>
 
     <section class="Formação">
@@ -77,9 +84,12 @@
         <section class='receita'>
             <h4>Receita: Muamba de galinha</h4>
             <p>"...descrever um pouco sobre o projeto..."</p>
-            <img src="...." alt="foto da receita">
+            <p>"...descrever um pouco sobre o projeto..."</p>
+            <p>"...descrever um pouco sobre o projeto..."</p>
+            <p>"...descrever um pouco sobre o projeto..."</p>
+            <img src="./img/Muamba de galinha.jpg" alt="foto da receita">
             <button>
-                <p>visualize o projeto</p>
+                <p>REPOSITÓRIO</p>
                 <a href=""></a> <!--link pra outra pagina-->
                 </button>
         </section>
@@ -87,9 +97,12 @@
         <section class="template">
             <h4>Template responsivo</h4>
             <p>"...descrever um pouco sobre o projeto..."</p>
-            <img src="...." alt="foto do template">
+            <p>"...descrever um pouco sobre o projeto..."</p>
+            <p>"...descrever um pouco sobre o projeto..."</p>
+            <p>"...descrever um pouco sobre o projeto..."</p>
+            <img src="./img/" alt="foto do template">
             <button>
-                <p>visualize o projeto</p>
+                <p>REPOSITÓRIO</p>
                 <a href=""></a> <!--link pra outra pagina-->
            </button>
         </section>
@@ -97,17 +110,25 @@
         <section classe="instagram">
             <h4>Clone da página instagram</h4>
             <p>"...descrever um pouco sobre o projeto..."</p>
-            <img src="...." alt="foto da página onstagram">
+            <p>"...descrever um pouco sobre o projeto..."</p>
+            <p>"...descrever um pouco sobre o projeto..."</p>
+            <p>"...descrever um pouco sobre o projeto..."</p>
+            <img src="./img/Insta_clone.png" alt="foto da página instagram">
             <button>
-                <p>visualize o projeto</p>
+                <p>REPOSITÓRIO</p>
                 <a href=""></a> <!--link pra outra pagina-->
             </button>
         </section>
     </div>
 
-    <section class="Contato">
+    <section class="ContatoPerguntas">
         <h4>Contato</h4>
         <p>Quer entrar em contato comigo?</p>
+        <p>Preencha o formulário ao lado e entrarei</p>
+        <p>em contato o mais possível</p>
+    </section>
+
+    <section class="ContatosTabelas">
         <div>
             <label for="name">Nome:</label>
             <input type="text" id="name" />
@@ -123,17 +144,20 @@
             <input type="text" id="subject" />
         </div>
 
-        <p>Preencha o formulário ao lado e entrarei em contato o mais possível</p>
         <div>
             <label for="msg">Mensagem:</label>
             <textarea id="msg"></textarea>
         </div>
-        <p>Você também me encontrá nas redes sociais seguintes.</p>
+
+        <button>Enviar</button>
     </section>
 
-    <img src="./img/facebook.png" alt="logo do facebook">
-    <img src="./img/instagram.jpg" alt="logo do instagram">
-    <img src="./img/whatsapp.png" alt="logo do whatsapp">
+    <section class="redeSociais">
+        <p>Você também me encontrá nas redes sociais seguintes.</p>
+        <img src="./img/facebook.png" alt="logo do facebook">
+        <img src="./img/instagram.jpg" alt="logo do instagram">
+        <img src="./img/whatsapp.png" alt="logo do whatsapp">
+    </SEction>
 
     <footer>
         <img src="./img/aluno.jpg" width="25  xpx" height="25px" alt="Logo do aluno"> &copy; Fernando Fontoura_TOTI_Turma 7 - 2021
