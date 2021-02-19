@@ -54,39 +54,25 @@ a {
     margin-left: 17px;
 }
 
-.header img {
-    top: 14px;
-    left: 563px;
-    width: 40px;
-    height: 40px;
-}
 
-.main {
+/* imagem principal */
+
+.container1 .fundo-afric img {
     top: 0.5px;
     left: 1px;
     width: 1919px;
-    height: 377px;
-}
-
-#main .fundo-afric {
-    top: 0.5px;
-    left: 1px;
-    width: 1919px;
-    height: 377px;
-}
-
-#main .img {
-    top: 285px;
-    left: 593px;
-    width: 183px;
-    height: 184px;
-}
-
-.container-principal img {
-    top: 285px;
-    left: 593px;
-    width: 183px;
-    height: 184px;
-    opacity: 1;
+    height: 377x;
     border: 1px solid #707070;
+}
+
+
+/* imagem RREDONDADA */
+
+main img {
+    top: 285px;
+    left: 593px;
+    width: 183px;
+    height: 184px;
+    border: 1px solid #707070;
+    opacity: 1;
 }
