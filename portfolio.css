@@ -1,0 +1,35 @@
+﻿/* Resetando as configurações padrão do navegador */
+
+* {
+    list-style: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Alinhar o menu com o logo */
+
+header {
+    display: flex;
+    /* Distancias o logo do menu */
+    justify-content: space-between;
+    /* Colocar uma cor no header */
+    background: black;
+    border: ;
+}
+
+.menu {
+    display: flex;
+}
+
+
+/* mudando a cor do conteúdo da header (links) */
+
+#logo {
+    color: white;
+}
+
+.menu a {
+    color: white;
+}
